@@ -1,4 +1,16 @@
-# SIFAR-Hiera: Super Image for Action Recognition using Hiera
+# Super Image for Efficient Large-Scale Video Action Recognition
+---
+
+## **Abstract**
+
+This thesis presents an efficient approach to video action recognition by reformulating it as an image classification problem using the Super Image for Action Recognition (SIFAR) framework. The proposed method aggregates multiple video frames into a single structured image by spatially arranging sampled frames into fixed-size grids (e.g., 3×3 or 4×4), enabling the use of standard vision transformer architectures for video understanding. Frame rearrangement is implemented using lightweight tensor operations, allowing seamless integration with existing image-based pipelines.
+
+The study primarily leverages ImageNet-21K pretrained Hierarchical Vision Transformers (Hiera-ViT), along with standard Vision Transformer backbones, to capture rich spatial representations from the constructed super-images. Extensive experiments are conducted on benchmark datasets, achieving approximately 79% top-1 accuracy on Kinetics-400 and 64% on Something-Something V2. Furthermore, multi-crop and multi-clip inference strategies are employed to enhance performance.
+
+The results demonstrate that carefully designed image-based models can effectively approximate spatiotemporal reasoning, offering a computationally efficient alternative to conventional video architectures such as 3D convolutional networks. This work highlights the potential of unifying image and video understanding within a simplified and scalable framework.
+
+---
+## SIFAR-Hiera: Super Image for Action Recognition using Hiera
 
 This repository presents a framework for **video action recognition** using **Super Image (SIFAR) representations** with **Hierarchical Vision Transformers (Hiera)** as the backbone.
 
@@ -210,6 +222,6 @@ This work builds upon:
 
 **Email:** [sudiptasarkar3600@gmail.com](mailto:sudiptasarkar3600@gmail.com)  
 
-**Website:** [https://my-website  ](https://sudipta-rkmrc.github.io/website/)
+**Website:** [sudipta-rkmrc.github.io](https://sudipta-rkmrc.github.io/website/)
 
 ---
