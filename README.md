@@ -23,7 +23,7 @@ In this work, we integrate **Hiera (Hierarchical Vision Transformer)**:
 ##  Architecture
 
 <p align="center">
-  <img src="assets/architecture.png" alt="SIFAR-Hiera Architecture" width="80%"/>
+  <img src="assets/Arch.png" alt="SIFAR-Hiera Architecture" width="80%"/>
   <br>
   <em>Figure 1: SIFAR-Hiera pipeline for action recognition</em>
 </p>
@@ -56,7 +56,7 @@ Action Prediction
 ##  Results
 
 <p align="center">
-  <img src="assets/results_table.png" alt="Results Table" width="70%"/>
+  <img src="assets/Table.png" alt="Results Table" width="70%"/>
   <br>
   <em>Table 1: Performance comparison across different configurations</em>
 </p>
@@ -183,8 +183,8 @@ CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node=1 --m
 ```
 SIFAR-HIERA/
 │── assets/
-│   ├── architecture.png
-│   ├── results_table.png
+│   ├── Arch.png
+│   ├── Table.png
 │
 │── main.py
 │── video_dataset_config.py
@@ -202,10 +202,14 @@ This work builds upon:
 
 ---
 
-## 📧 Contact
+## Contact
 
-**Author:** Sudipta Sarkar
-**Date:** March 2026
-**Email:** [sudiptasarkar3600@gmail.com](mailto:sudiptasarkar3600@gmail.com)
+**Author:** Sudipta Sarkar  
+
+**Date:** March 2026  
+
+**Email:** [sudiptasarkar3600@gmail.com](mailto:sudiptasarkar3600@gmail.com)  
+
+**Website:** [https://my-website  ](https://sudipta-rkmrc.github.io/website/)
 
 ---
