@@ -158,12 +158,4 @@ This work builds upon:
 
 **Author:** Sudipta Sarkar
 **Date:** 10 May 2025
-**Email:** [sudiptasarkar3600@gmail.com](mailto:sudiptasarkar3600@gmail.com)
-
----
-
-If you want, I can also:
-
-* add **results table (Top-1 accuracy)**
-* make it **CVPR/WACV-level polished README**
-* or align both repos into a **single unified project (SIFAR + multiple backbones)** 🔥
+**Email:** [sudiptasarkar3600@gmail.com](mailto:sudiptasarkar3600@gmail.com)n both repos into a **single unified project (SIFAR + multiple backbones)** 🔥
